@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.principal{
+    
+ width: 40%;
+
+    
+}
+
+.imagem{
+    width: 10px;
+    
+    
+   
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#botoes{
+    
+    border-radius: 16px;
+    font-family: 'Krona one', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #367791; /* Cor de fundo do botão */
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #26556a; /* Cor de fundo do botão ao passar o mouse */
+}
+
+#destaque{
+    color: #22D4FD;
+    font-family: 'Krona one', sans-serif;
+}
